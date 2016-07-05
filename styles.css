@@ -1,0 +1,51 @@
+/* header nav */
+
+header {
+  background-color: #FFFAD5;
+  height: 80px;
+  width: 1280px;
+}
+
+nav ul {
+  float: right;
+}
+
+nav li {
+  display: inline-block;
+  padding: 33px 15px 27px;
+  font-family: 'Farsan', cursive;
+  font-size: 1.2em;
+}
+
+nav li:hover {
+  background: #00A3B0;
+}
+
+nav h1 {
+  font-family: 'Bungee Shade', cursive;
+  font-size: 1.5em;
+  background-size: 45px;
+  float: left;
+  padding-top: 25px;
+  padding-left: 10px;
+}
+
+h2 {
+  font-family: 'Bungee Inline', cursive;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 3em;
+}
+
+h2:last-of-type {
+  
+}
+
+section {
+  background-color: #BFBDB0;
+  padding: 50px;
+}
+
+p {
+  font-family: 'Lora', serif;
+}
