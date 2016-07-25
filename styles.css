@@ -2,12 +2,14 @@
 
 header {
   background-color: #FFFAD5;
-  height: 80px;
+  height: 79px;
   width: 1280px;
+  position: fixed;
+  border-bottom: 5px solid black;
 }
 
 nav ul {
-  float: right;
+  margin-left: 73%;
 }
 
 nav li {
@@ -30,22 +32,72 @@ nav h1 {
   padding-left: 10px;
 }
 
-h2 {
-  font-family: 'Bungee Inline', cursive;
-  margin-bottom: 15px;
-  text-align: center;
-  font-size: 3em;
+nav a {
+  text-decoration: none;
 }
 
-h2:last-of-type {
-  
+/*begin body content*/
+
+h2 {
+  font-family: 'Bungee Inline', cursive;
+  margin-bottom: 45px;
+  text-align: center;
+  font-size: 3em;
 }
 
 section {
   background-color: #BFBDB0;
   padding: 50px;
+  border-bottom: 5px solid black;
 }
 
 p {
   font-family: 'Lora', serif;
+  font-weight: bolder;
+  margin-top: 10px;
+  text-align: center;
 }
+
+footer {
+  font-size: 8px;
+  height: 180px;
+  width: 1280px;
+  background-color: #3C5F57;
+  bottom: 0;
+  padding-top: 30px;
+  border-top: 5px solid black;
+}
+
+footer ul {
+  margin-left: 500px;
+  margin-bottom: 50px;
+}
+
+footer li {
+  display: inline-block;
+  margin: 0 25px;
+}
+
+/*begin class styles*/
+.home-page{
+  padding-top: 125px;
+}
+
+.guesser-img {
+  display: inline-block;
+  height: auto;
+  width: 600px;
+  margin-left: 25%;
+  border: 2px solid black;
+}
+
+.linked-list-img {
+  display: inline-block;
+  height: auto;
+  width: 600px;
+  margin-left: 25%;
+  border: 2px solid black;
+  margin-top: 15px;
+}
+
+/*begin repsonsive code*/
