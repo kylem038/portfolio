@@ -73,7 +73,7 @@ footer {
 
 footer ul {
   display: flex;
-  justify-content: 
+  justify-content: center;
   margin-bottom: 50px;
 }
 
@@ -107,6 +107,13 @@ footer li {
   margin-top: 15px;
 }
 
+.snake-img {
+  height: auto;
+  width: 600px;
+  border: 2px solid black;
+  margin-top: 15px;
+}
+
 /*begin repsonsive code*/
 @media screen and (max-width: 700px){
   header {
@@ -123,10 +130,6 @@ footer li {
   }
   nav li {
     font-size: 1.1em;
-  }
-
-  footer ul {
-    margin-left: 30%
   }
 
   .guesser-img  {
