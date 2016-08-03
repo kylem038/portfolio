@@ -1,7 +1,4 @@
 /* header nav */
-html {
-  display: flex;
-}
 
 header {
   background-color: #FFFAD5;
@@ -15,9 +12,10 @@ nav {
 }
 
 nav ul {
-  margin-left: 50%;
+  margin-left: auto;
   display: inline-flex;
   flex-direction: row;
+
 }
 
 nav li {
@@ -48,6 +46,9 @@ h2 {
 }
 
 section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   background-color: #BFBDB0;
   padding: 50px;
   border-bottom: 5px solid black;
@@ -71,7 +72,8 @@ footer {
 }
 
 footer ul {
-  margin-left: 500px;
+  display: flex;
+  justify-content: 
   margin-bottom: 50px;
 }
 
@@ -86,27 +88,21 @@ footer li {
 }
 
 .guesser-img {
-  display: inline-block;
   height: auto;
   width: 600px;
-  margin-left: 25%;
   border: 2px solid black;
 }
 
 .linked-list-img {
-  display: inline-block;
   height: auto;
   width: 600px;
-  margin-left: 25%;
   border: 2px solid black;
   margin-top: 15px;
 }
 
 .ideabox-img {
-  display: inline-block;
   height: auto;
   width: 600px;
-  margin-left: 25%;
   border: 2px solid black;
   margin-top: 15px;
 }
@@ -115,15 +111,13 @@ footer li {
 @media screen and (max-width: 700px){
   header {
     width: 700px;
+    height: 77px;
   }
 
   body {
     width: 700px;
   }
 
-  header {
-    height: 77px;
-  }
   nav ul {
     margin-left: 0;
   }
@@ -131,22 +125,26 @@ footer li {
     font-size: 1.1em;
   }
 
+  footer ul {
+    margin-left: 30%
+  }
+
   .guesser-img  {
-    height: 200px;
+    height: 150px;
     width: 500px;
-    margin-left: 20px;
+    margin-left: 53px;
   }
 
   .linked-list-img {
     height: 200px;
     width: 500px;
-    margin-left: 20px;
+    margin-left: 53px;
   }
 
   .ideabox-img {
     height: 200px;
     width: 500px;
-    margin-left: 20px;
+    margin-left: 53px;
   }
 
 }
