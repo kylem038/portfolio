@@ -15,7 +15,6 @@ nav ul {
   margin-left: auto;
   display: inline-flex;
   flex-direction: row;
-
 }
 
 nav li {
@@ -34,6 +33,10 @@ nav h1 {
   background-size: 45px;
   padding-top: 25px;
   padding-left: 10px;
+}
+
+a {
+  text-decoration: none;
 }
 
 /*begin body content*/
@@ -88,12 +91,16 @@ footer li {
 }
 
 .guesser-img {
+  display: flex;
+  margin: auto;
   height: auto;
   width: 600px;
   border: 2px solid black;
 }
 
 .linked-list-img {
+  display: flex;
+  margin: auto;
   height: auto;
   width: 600px;
   border: 2px solid black;
@@ -101,6 +108,8 @@ footer li {
 }
 
 .ideabox-img {
+  display: flex;
+  margin: auto;
   height: auto;
   width: 600px;
   border: 2px solid black;
@@ -108,6 +117,8 @@ footer li {
 }
 
 .snake-img {
+  display: flex;
+  margin: auto;
   height: auto;
   width: 600px;
   border: 2px solid black;
