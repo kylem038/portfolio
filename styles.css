@@ -1,7 +1,7 @@
 /* header nav */
 
 header {
-  background-color: #FFFAD5;
+  background-color: #D6D4D3;
   height: 79px;
   width: auto;
   border-bottom: 5px solid black;
@@ -24,7 +24,8 @@ nav li {
 }
 
 nav li:hover {
-  background: #00A3B0;
+  background: #333333;
+  color: #FFFFFF;
 }
 
 nav h1 {
@@ -37,14 +38,16 @@ nav h1 {
 
 a {
   text-decoration: none;
+  color: #4C4C4C;
 }
 
 /*begin body content*/
 
 h2 {
-  font-family: 'Bungee Inline', cursive;
+  font-family: 'Roboto', sans-serif;
   margin-bottom: 45px;
   text-align: center;
+  font-weight: bold;
   font-size: 3em;
 }
 
@@ -52,7 +55,7 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background-color: #BFBDB0;
+  background-color: #FFFFFF;
   padding: 50px;
   border-bottom: 5px solid black;
 }
@@ -85,12 +88,24 @@ footer li {
   margin: 0 25px;
 }
 
-/*begin class styles*/
-.home-page{
-  padding-top: 125px;
+section.home-page {
+  padding: 0px;
+  background-color: transparent;
 }
 
-.guesser-img {
+div.value-prop {
+  position: absolute;
+  top: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding-top: 30px;
+}
+
+/*begin class styles*/
+
+.jamfinder-img {
   display: flex;
   margin: auto;
   height: auto;
@@ -98,7 +113,7 @@ footer li {
   border: 2px solid black;
 }
 
-.linked-list-img {
+.networker-img {
   display: flex;
   margin: auto;
   height: auto;
@@ -116,20 +131,15 @@ footer li {
   margin-top: 15px;
 }
 
-.snake-img {
-  display: flex;
-  margin: auto;
-  height: auto;
-  width: 600px;
-  border: 2px solid black;
-  margin-top: 15px;
-}
-
 /*begin repsonsive code*/
 @media screen and (max-width: 700px){
   header {
     width: 700px;
     height: 77px;
+  }
+
+  h2 {
+    font-size: 20px;
   }
 
   body {
@@ -143,14 +153,14 @@ footer li {
     font-size: 1.1em;
   }
 
-  .guesser-img  {
+  .jamfinder-img  {
     height: 150px;
     width: 500px;
     margin-left: 53px;
   }
 
-  .linked-list-img {
-    height: 200px;
+  .networker-img {
+    height: 400px;
     width: 500px;
     margin-left: 53px;
   }
