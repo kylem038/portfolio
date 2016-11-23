@@ -95,10 +95,13 @@ section.home-page {
 }
 
 div.value-prop {
+  position: absolute;
+  top: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 100%;
+  padding-top: 20px;
 }
 
 section.portfolio-page {
@@ -167,6 +170,16 @@ section.parallax p {
 
   nav ul {
     display: none;
+  }
+
+  div.value-prop {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
   }
 
   div.value-prop {
