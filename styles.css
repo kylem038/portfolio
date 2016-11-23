@@ -191,6 +191,10 @@ section.parallax p {
     margin: 5px;
   }
 
+  section.portfolio-page p {
+    width: 80vw;
+  }
+
   .home-page {
     height: 190px;
     width: 100vw;
