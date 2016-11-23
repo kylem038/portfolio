@@ -91,6 +91,7 @@ footer li {
 section.home-page {
   padding: 0px;
   background-color: transparent;
+  width: 100vw;
 }
 
 div.value-prop {
@@ -100,7 +101,7 @@ div.value-prop {
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 /*begin class styles*/
@@ -131,10 +132,22 @@ div.value-prop {
   margin-top: 15px;
 }
 
+/*parallax code*/
+section.parallax {
+  background: url('Images/mountains-parallax.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-attachment: fixed;
+}
+section.parallax p {
+  color: #FFFFFF;
+}
+
 /*begin repsonsive code*/
-@media screen and (max-width: 700px){
+@media screen and (max-width: 800px){
   header {
-    width: 700px;
+    width: 100vw;
     height: 77px;
   }
 
@@ -143,32 +156,47 @@ div.value-prop {
   }
 
   body {
-    width: 700px;
+    width: 100vw;
   }
 
   nav ul {
-    margin-left: 0;
+    display: none;
   }
-  nav li {
-    font-size: 1.1em;
+
+  div.value-prop {
+    padding: 0px;
+  }
+
+  div.value-prop h2 {
+    font-size: 20px;
+    margin: 5px;
+  }
+
+  .home-page {
+    height: 190px;
+    width: 100vw;
+  }
+
+  .portfolio-page {
+    margin-left: 0px;
+    padding-top: 10px;
+    padding-left: 0px;
+    width: 100vw;
   }
 
   .jamfinder-img  {
-    height: 150px;
-    width: 500px;
-    margin-left: 53px;
+    height: 100px;
+    width: 300px;
   }
 
   .networker-img {
-    height: 400px;
-    width: 500px;
-    margin-left: 53px;
+    height: 150px;
+    width: 300px;
   }
 
   .ideabox-img {
-    height: 200px;
-    width: 500px;
-    margin-left: 53px;
+    height: 100px;
+    width: 300px;
   }
 
 }
