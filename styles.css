@@ -51,6 +51,12 @@ h2 {
   font-size: 3em;
 }
 
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
 section {
   display: flex;
   justify-content: center;
@@ -88,6 +94,10 @@ footer li {
   margin: 0 25px;
 }
 
+a.project-link {
+  margin-top: 10px;
+}
+
 section.home-page {
   padding: 0px;
   background-color: transparent;
@@ -114,6 +124,14 @@ section.portfolio-page p {
 }
 
 /*begin class styles*/
+
+.individual-project {
+  border: 1px solid black;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
 
 .jamfinder-img {
   display: flex;
